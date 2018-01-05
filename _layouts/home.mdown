@@ -4,7 +4,7 @@ layout: default
 
 <div class="header-home">
 	<nav class="navbar navbar-expand-lg navbar-dark">
-	  <a class="navbar-brand" href="{{ site.url }}"><img src="{{ site.url }}/img/logo.png"></a>
+	  <a class="navbar-brand" href="{{ site.url }}"><img src="{{ site.url }}/img/logo.png" alt="logo"></a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
@@ -41,10 +41,10 @@ layout: default
 <div class="container-fluid about-section">
 	<div class="row">
 		<div class="col-2">
-			<img src="img/about/steel-mill-616526_1280.jpg">
-			<img src="img/about/steel-mill-616536_960_720.jpg">
-			<img src="img/about/stock-photo-hot-steel-pouring-in-steel-plant-170226410.jpg">
-			<img src="img/about/stock-photo-metal-smelting-casting-212278177.jpg">
+			<img src="img/about/steel-mill-616526_1280.jpg" alt="About">
+			<img src="img/about/steel-mill-616536_960_720.jpg" alt="About">
+			<img src="img/about/stock-photo-hot-steel-pouring-in-steel-plant-170226410.jpg" alt="About">
+			<img src="img/about/stock-photo-metal-smelting-casting-212278177.jpg" alt="About">
 		</div>
 		<div class="col-8">
 			<p>SIDERMES является поставщиком измерительного оборудования параметров расплавленного металла с 1978 года, постоянно совершенствуя свои системы и технологии для повышения качества выпускаемой продукции. Благодаря опыту инженеров и квалифицированного персонала, компания SIDERMES заслужила репутацию одного из лучших и уважаемых специализированных поставщиков на мировом уровне и присутствует на 5 континентах через свои филиалы, дилеров и агентов.</p>
@@ -55,10 +55,10 @@ layout: default
 			<p>…ждем начала сотрудничества с вами!
 		</div>
 		<div class="col-2">
-			<img src="img/about/steel-mill-616526_1280.jpg">
-			<img src="img/about/steel-mill-616536_960_720.jpg">
-			<img src="img/about/stock-photo-hot-steel-pouring-in-steel-plant-170226410.jpg">
-			<img src="img/about/stock-photo-metal-smelting-casting-212278177.jpg">
+			<img src="img/about/steel-mill-616526_1280.jpg" alt="About">
+			<img src="img/about/steel-mill-616536_960_720.jpg" alt="About">
+			<img src="img/about/stock-photo-hot-steel-pouring-in-steel-plant-170226410.jpg" alt="About">
+			<img src="img/about/stock-photo-metal-smelting-casting-212278177.jpg" alt="About">
 		</div>
 	</div>
 </div>
