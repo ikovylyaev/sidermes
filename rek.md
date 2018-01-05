@@ -51,7 +51,7 @@ permalink: /rek/
 </div>
 <style type="text/css">
 	.header-page{background: url({{ site.url }}/img/br-rek2.jpg); background-size: cover;}
-	.row{padding: 50px; margin: 0px;}
+	.row{margin: 0px;}
 	.card-body{border-radius: 0px; border-width: 0px; padding: 20px;}
 	.card{border-radius: 0px; border-width: 0px; height: 50vh;}
 	.card-img-top{border-radius: 0px; border-width: 0px; z-index: 0}
