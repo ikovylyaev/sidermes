@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+    <link rel="stylesheet" href="{{ site.url }}/css/main.css">
+    <link rel="stylesheet" href="{{ site.url }}/css/cssanimation.min.css">
+    <link rel="stylesheet" href="{{ site.url }}/css/bootstrap.css">
+    <link rel="stylesheet" href="{{ site.url }}/css/owl.carousel.css">
+    <link rel="stylesheet" href="{{ site.url }}/css/owl.theme.default.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="{{ site.url }}/js/bootstrap.js"></script>
+    <script src="{{ site.url }}/js/owl.carousel.min.js"></script>
+    <script src="{{ site.url }}/js/scrolly.js"></script>
+    <script src="{{ site.url }}/js/letteranimation.min.js"></script>
+
+    <title>{{ page.title }} | {{ site.title }}</title>
+  </head>
+  <body>
+    {{ content }}
+    <footer class="row" data-scrolly-top="blurInBottom">
+      <div class="col" style="color: #fff;">
+        ООО "Сидермес"
+        г. Екатеринбург, ул. Совхозная, 20а оф. 14.
+        Тел:  +7 343 278 98 42 (47,48)
+        Факс:  +7 343 278-98-42 e-mail: info@sidermes.ru
+      </div>
+      <div class="col">
+        <div class="row">
+          <ul class="nav-bottom list-group col">
+            <li class="list-group-item {% if page.url == '/' %} active {% endif %}">
+              <a href="{{ site.url }}"><i class="fas fa-angle-right"></i><p>Главная</p></a>
+            </li>
+            <li class="list-group-item {% if page.url == '/catalog/' %} active {% endif %}">
+              <a href="{{ site.url }}/catalog"><i class="fas fa-angle-right"></i><p>Каталог</p></a>
+            </li>
+          </ul>
+          <ul class="nav-bottom list-group col">
+            <li class="list-group-item {% if page.url == '/quality/' %} active {% endif %}">
+              <a href="{{ site.url }}/quality"><i class="fas fa-angle-right"></i><p>Качество</p></a>
+            </li>
+            <li class="list-group-item {% if page.url == '/where/' %} active {% endif %}">
+              <a href="{{ site.url }}/where"><i class="fas fa-angle-right"></i><p>Расположение</p></a>
+            </li>
+          </ul>
+          <ul class="nav-bottom list-group col">
+            <li class="list-group-item {% if page.url == '/contact/' %} active {% endif %}">
+              <a href="{{ site.url }}/contact"><i class="fas fa-angle-right"></i><p>Контакты</p></a>
+            </li>
+            <li class="list-group-item {% if page.url == '/rek/' %} active {% endif %}">
+              <a href="{{ site.url }}/rek"><i class="fas fa-angle-right"></i><p>Реквизиты</p></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="row">
+          <div class="col-4"><img src="http://ikovylyaev.tk/img/logo.png" style="height: 50px;"></div>
+          <div class="col-8" style="padding-top: 25px; text-align: left;"><a href="http://ikovylyaev.tk" style="text-align: left; color: #fff; text-decoration: none;">Дизайн и разработка: Иван Ковыляев</a></div>
+        </div>
+        
+      </div>
+      <p class="copyright">SIDERMES © COPYRIGHT 2008, ВСЕ ПРАВА ЗАЩИЩЕНЫ</p>
+    </footer>
+
+  </body>
+</html>
+

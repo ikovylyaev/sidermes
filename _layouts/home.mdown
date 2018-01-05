@@ -1,0 +1,64 @@
+---
+layout: default
+---
+
+<div class="header-home">
+	<nav class="navbar navbar-expand-lg navbar-dark">
+	  <a class="navbar-brand" href="{{ site.url }}"><img src="{{ site.url }}/img/logo.png"></a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarContent">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="{{ site.url }}"><p>Главная</p></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="{{ site.url }}/catalog"><p>Каталог</p></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="{{ site.url }}/quality"><p>Качество</p></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="{{ site.url }}/where"><p>Расположение</p></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="{{ site.url }}/contact"><p>Контакты</p></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="{{ site.url }}/rek"><p>Реквизиты</p></a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+
+	<div class="header-content">
+		<h1>{{ site.title }}</h1>
+		<p>{{ site.description }}</p>
+	</div>
+</div>
+<div class="container-fluid about-section">
+	<div class="row">
+		<div class="col-2">
+			<img src="img/about/steel-mill-616526_1280.jpg">
+			<img src="img/about/steel-mill-616536_960_720.jpg">
+			<img src="img/about/stock-photo-hot-steel-pouring-in-steel-plant-170226410.jpg">
+			<img src="img/about/stock-photo-metal-smelting-casting-212278177.jpg">
+		</div>
+		<div class="col-8">
+			<p>SIDERMES является поставщиком измерительного оборудования параметров расплавленного металла с 1978 года, постоянно совершенствуя свои системы и технологии для повышения качества выпускаемой продукции. Благодаря опыту инженеров и квалифицированного персонала, компания SIDERMES заслужила репутацию одного из лучших и уважаемых специализированных поставщиков на мировом уровне и присутствует на 5 континентах через свои филиалы, дилеров и агентов.</p>
+			<p>Центры технического обслуживания имеются в большинстве стран Европы, Африки и Азии, Центральной и Южной Америки, а в ближайшее время предусматривается присутствие в других еще неохваченных государствах. SIDERMES предлагает услуги экспертов, способных удовлетворить любые потребности заказчиков в области технического обслуживания, предлагая также и линейку цифровых приборов, соединяемых с ПК или ПЛК. С момента своего основания SIDERMES поставила более 200 миллионов датчиков, а многие металлургические предприятия по всему миру оснащены и цифровыми приборами SIDERMES или системой автоматического измерения ADS®. Располагая штатом более 100 человек, группа SIDERMES имеет чрезвычайно гибкую организацию и может удовлетворить любой запрос в самые короткие сроки. С 1989 года для удовлетворения все более жестких требований охраны труда и качества измерений на многие предприятия для различного металлургического применения поставляется также система автоматического измерения.</p>
+			<p>Основное направление деятельности SIDERMES - производство высококачественных датчиков для всех областей измерения жидких металлов в металлургии. Это производство охватывает все требования контроля и оценки комплексных процессов с расплавленным металлом. Благодаря постоянному совершенствованию производства, SIDERMES располагает обширным ноу-хау, не только в области производства датчиков, но и в области поставки цифровых измерительных приборов и соответствующих комплектующих.</p>
+			<p>Мы сконцентрированы на качестве и надежности изделий, постоянно отслеживая все особые требования наших заказчиков.</p>
+			<p>В марте 1994 года система качества SIDERMES прошла сертификацию и на данный момент сертифицирована по ISO 9001:2008.</p>
+			<p>…ждем начала сотрудничества с вами!
+		</div>
+		<div class="col-2">
+			<img src="img/about/steel-mill-616526_1280.jpg">
+			<img src="img/about/steel-mill-616536_960_720.jpg">
+			<img src="img/about/stock-photo-hot-steel-pouring-in-steel-plant-170226410.jpg">
+			<img src="img/about/stock-photo-metal-smelting-casting-212278177.jpg">
+		</div>
+	</div>
+</div>

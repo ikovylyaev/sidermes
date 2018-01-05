@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<div class="header-page">
+	<nav class="navbar navbar-expand-lg navbar-dark">
+	  <a class="navbar-brand" href="{{ site.url }}"><img src="{{ site.url }}/img/logo.png"></a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarContent">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item {% if page.url == '/' %} active {% endif %}">
+	        <a class="nav-link" href="{{ site.url }}"><p>Главная</p></a>
+	      </li>
+	      <li class="nav-item {% if page.url == '/catalog/' %} active {% endif %}">
+	        <a class="nav-link" href="{{ site.url }}/catalog"><p>Каталог</p></a>
+	      </li>
+	      <li class="nav-item {% if page.url == '/quality/' %} active {% endif %}">
+	        <a class="nav-link" href="{{ site.url }}/quality"><p>Качество</p></a>
+	      </li>
+	      <li class="nav-item {% if page.url == '/where/' %} active {% endif %}">
+	        <a class="nav-link" href="{{ site.url }}/where"><p>Расположение</p></a>
+	      </li>
+	      <li class="nav-item {% if page.url == '/contact/' %} active {% endif %}">
+	        <a class="nav-link" href="{{ site.url }}/contact"><p>Контакты</p></a>
+	      </li>
+	      <li class="nav-item {% if page.url == '/rek/' %} active {% endif %}">
+	        <a class="nav-link" href="{{ site.url }}/rek"><p>Реквизиты</p></a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+
+	<div class="header-content">
+		<h1>{{ page.title }}</h1>
+	</div>
+</div>
+<div class="container-fluid page-section">
+	{{ content }}
+</div>
+
+    <script>
+    $(window).bind('scroll',function(e){
+        parallaxScroll();
+    });
+    function parallaxScroll(){
+        var scrolled = $(window).scrollTop();
+        $(".header-page").css('backgroundPositionY',(0+(scrolled*.1))+'%');
+      }
+  
+    </script>

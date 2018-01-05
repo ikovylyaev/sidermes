@@ -1,0 +1,23 @@
+title: Sidermes
+email: info@sidermes.ru
+description: >-
+  Мы работаем в качестве поставщика измерительных датчиков и приборов для металлургической отрасли с 1978 года, постоянно совершенствуя свои системы и технологии в целях производства высококачественной продукции
+baseurl: ""
+url: "http://special.ikovylyaev.tk/sidermes"
+
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
