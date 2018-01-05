@@ -7,7 +7,7 @@ permalink: /where/
 <div class="container-fluid about-section" style=" background: #292E32; color: #fff;">
 	<div class="row">
 		<div class="col-8">
-			<img src="../img/world-map-146505.png"><h3 style="margin-top: 50px;">Штаб-квартира:</h3>
+			<img src="../img/world-map-146505.png" alt="map"><h3 style="margin-top: 50px;">Штаб-квартира:</h3>
 			<div class="row">
 				<div class="col">
 					<b>SIDERMES S.p.A</b>
