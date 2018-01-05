@@ -6,7 +6,7 @@ baseurl: ""
 url: "http://work.ikovylyaev.tk/"
 
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
