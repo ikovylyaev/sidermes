@@ -27,7 +27,7 @@
 .navbar-brand{
 	width: 20%;
 	border-right: 1px solid #fff;
-	padding: 20% auto;
+	padding: 20% 0px;
 	text-align: center;
 	height: 100%;
 }
@@ -111,7 +111,7 @@
 	.navbar-brand{
 		width: auto;
 		border-right: 0px solid #fff;
-		padding: 20% auto;
+		padding: 20% 0px;
 		text-align: center;
 		height: 100%;
 	}
@@ -122,8 +122,14 @@
 	padding: 20vh 10vw 0vh 10vw;
 }
 
-.header-content h1{
+.header-home .header-content h1{
 	font-size: 9.5em;
+	color: #fff;
+	font-family: 'Russo One', sans-serif;
+}
+.header-page .header-content h1{
+	font-size: 20vh;
+	margin-top: 2vh;
 	color: #fff;
 	font-family: 'Russo One', sans-serif;
 }
@@ -135,7 +141,7 @@
 /* about */
 .about-section .row .col-2{margin: 0px !important; padding: 0px !important;}
 .about-section .row .col-2 img{ width: 100%; margin: 0px !important; padding: 0px !important;}
-.about-section .row .col-8{padding: 10vh 5vw; background: #292E32; color: #fff; font-family: 'Comfortaa', cursive;}
+.about-section .row .col-8{padding: 10vh 5vw; background: #fff; color: #292E32; font-family: 'Comfortaa', cursive;}
 .about-section{padding: 0px !important; margin: 0px !important;}
 .about-section .row{padding: 0px !important; margin: 0px !important;}
 
@@ -160,9 +166,9 @@
 }
 
 .catalog-nav{width: 100%;}
-.catalog-nav .catnav-item{width: calc(100% / 4); margin: 0px; height: 10vh; background-size: cover; transition: 0.3s; padding: 2vh auto; text-align: center; display: inline-block;}
+.catalog-nav .catnav-item{width: calc(100% / 4); margin: 0px; height: 10vh; background-size: cover; transition: 0.3s; padding: 2vh 0px; text-align: center; display: inline-block;}
 .nav-bottom .nav-item .nav-link{color: #fff;}
-footer{background: #000; padding: 20px 20px; z-index: 5;}
+footer{background: #000; padding: 20px 20px; z-index: 5; font-family: 'Comfortaa', cursive;}
 footer .nav-bottom li.active a{color: #fff; transition: 0.3s;  background: none;}
 footer .nav-bottom li.active{transition: 0.3s; border-width: 0px;background: none;}
 footer .nav-bottom li a{color: #eee; transition: 0.3s; width: 100%; }
@@ -192,3 +198,9 @@ footer .copyright{color: #fff; text-align: center; margin-top: 10px; width: 100%
 	display: inline-block;
 }
 .list-group-item{padding: 0px !important; }
+.dropdown-menu{
+	width: 100%;
+	border-radius: 0px;
+	margin-top: 0px;
+	padding: 0px;
+}

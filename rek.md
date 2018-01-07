@@ -3,7 +3,7 @@ layout: page
 title: Реквизиты
 permalink: /rek/
 ---
-<div class="row">
+<div class="row" style="background: #fff">
   <div class="col-sm-10" style="margin: 0 auto">
     <div class="row">
     	<div class="col">
@@ -51,9 +51,6 @@ permalink: /rek/
 </div>
 <style type="text/css">
 	.header-page{background: url({{ site.url }}/img/br-rek2.jpg); background-size: cover;}
-	.row{margin: 0px;}
-	.card-body{border-radius: 0px; border-width: 0px; padding: 20px;}
-	.card{border-radius: 0px; border-width: 0px; height: 50vh;}
-	.card-img-top{border-radius: 0px; border-width: 0px; z-index: 0}
+	.row{padding:0px; margin: 0px;}
 	.page-section{padding: 0px; margin: 0px;}
 </style>

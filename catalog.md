@@ -43,7 +43,6 @@ permalink: /catalog2/
 	  </div>
 	</div>
 </div>
-т
 <style type="text/css">
 	.header-page{background: url({{ site.url }}/img/bg-catalog.jpeg); background-size: cover;}
 	.col-3{padding: 0px; margin: 0px;}
@@ -52,4 +51,32 @@ permalink: /catalog2/
 	.card{border-radius: 0px; border-width: 0px; height: 50vh;}
 	.card-img-top{border-radius: 0px; border-width: 0px; z-index: 0}
 	.page-section{padding: 0px; margin: 0px;}
+.card-body:after {
+  display: inline-block;
+  position: absolute;
+  width: 0;
+  height: 3px;
+  background: #222;
+}
+.card-body:hover:after {
+  animation: run 2s 1 linear;
+}
+
+@keyframes run {
+  0% {
+    width: 0px;
+  }
+  25% {
+    width: 25%;
+  }
+  50% {
+    width: 50%;
+  }
+  75% {
+    width: 75%;
+  }
+  100%{
+  	width: 100%;
+  }
+}
 </style>

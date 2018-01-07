@@ -3,10 +3,10 @@ layout: page
 title: Контакты
 permalink: /contact/
 ---
-<div class="row">
-	<div class="col-sm-10" style="margin: 0 auto">
+<div class="row" style="background: #fff">
+	<div class="col-md-10" style="margin: 0 auto;">
 		<div class="catalog-nav row">
-			<div class="col-3">
+			<div class="col-3" style="background: #fff">
 				<h3>Сайсанов Е.В.</h3>
 				<p>Директор	</p>
 
@@ -20,7 +20,7 @@ permalink: /contact/
 				<p>Телефон: 	(343) 345 96 61</p>
 				<p>Факс: 	(343) 278-98-42</p>
 			</div>
-			<div class="col-9"><h3>Связаться с нами</h3>
+			<div class="col-9" style="background: #fff"><h3>Связаться с нами</h3>
 				<form method="post" action="">
 		    	  
 				  <div class="form-group row">

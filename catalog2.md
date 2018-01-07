@@ -3,7 +3,7 @@ layout: page
 title: Каталог
 permalink: /catalog/
 ---
-<nav id="catalog" class="navbar navbar-dark bg-dark sticky-top">
+<nav id="catalog" class="navbar navbar-light bg-light sticky-top">
   <ul class="nav nav-pills col-10">
     <li class="nav-item">
       <a class="nav-link" href="#stal"><i class="fas fa-angle-right"></i>Сталь<i class="fas fa-angle-left"></i></a>
@@ -305,12 +305,13 @@ permalink: /catalog/
 	#catalog .nav{margin: 0 auto;}
 	#catalog .nav .nav-item{width: auto; height: 3em;}
 	#catalog .nav .nav-item .nav-link{margin: 0.5em auto; text-align: center; padding-top: 0px;}
-	.nav-pills .nav-link.active, .nav-pills .show>.nav-link {color: #fff;font-weight: 600; background: none; transition: 0.3s;}
-	.nav-pills .nav-link.active svg:first-child{opacity: 1; transition: 0.3s; margin-right: 5px;margin-left: 20px;}
-	.nav-pills .nav-link.active svg:last-child{opacity: 1; transition: 0.3s; margin-right: 20px;margin-left: 5px;}
-	.nav-pills .nav-link{color: #eee;font-weight: 300; background: none; transition: 0.3s;}
-	.nav-pills .nav-link svg:first-child{opacity: 0; transition: 0.3s; margin-right: 20px;margin-left: 5px;}
-	.nav-pills .nav-link svg:last-child{opacity: 0; transition: 0.3s; margin-right: 5px;margin-left: 20px;}
+	.nav-pills .nav-link.active, .nav-pills .show>.nav-link {color: #202326;font-weight: 500; background: none; transition: 0.3s;}
+	.nav-pills .nav-link.active svg:first-child{opacity: 1; transition: 0.3s; margin-right: 5px;margin-left: 20px; fill: #202326;}
+	.nav-pills .nav-link.active svg:last-child{opacity: 1; transition: 0.3s; margin-right: 20px;margin-left: 5px; fill: #202326;}
+	.nav-pills .nav-link{color: #292E32;font-weight: 300; background: none; transition: 0.3s;}
+	.nav-pills .nav-link svg:first-child{opacity: 0; transition: 0.3s; margin-right: 20px;margin-left: 5px; fill: #292E32;}
+	.nav-pills .nav-link svg:last-child{opacity: 0; transition: 0.3s; margin-right: 5px;margin-left: 20px; fill: #292E32;}
+	#catalog{box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)}
 </style>
 <script type="text/javascript">
 	$(document).ready(function(){

@@ -1,13 +1,12 @@
 ---
 layout: page
-title: Где мы
+title: Расположение
 permalink: /where/
 ---
-
-<div class="container-fluid about-section" style=" background: #292E32; color: #fff;">
+<div class="container-fluid about-section" style=" background: #fff; color: #292E32;">
 	<div class="row">
 		<div class="col-8">
-			<img src="../img/world-map-146505.png" alt="map"><h3 style="margin-top: 50px;">Штаб-квартира:</h3>
+			<img src="../img/world-map-146505.svg" alt="map"><h3 style="margin-top: 50px;">Штаб-квартира:</h3>
 			<div class="row">
 				<div class="col">
 					<b>SIDERMES S.p.A</b>
@@ -96,10 +95,13 @@ permalink: /where/
 <style type="text/css">
 	.header-page{background: url({{ site.url }}/img/bg-where.jpg); background-size: cover;}
 	.col-3{padding: 0px; margin: 0px;}
+	.col p{font-family: 'Comfortaa', cursive;}
 	.col-8 img{width: 100%;padding: 0px; margin: 0px;}
+	.col-4{background: #fff;}
 	.row{padding: 0px; margin: 0px;}
 	.card-body{border-radius: 0px; border-width: 0px; padding: 20px;}
 	.card{border-radius: 0px; border-width: 0px; height: 50vh;}
 	.card-img-top{border-radius: 0px; border-width: 0px; z-index: 0}
 	.page-section{padding: 0px; margin: 0px;}
+	h3{font-family: 'Comfortaa', cursive;}
 </style>

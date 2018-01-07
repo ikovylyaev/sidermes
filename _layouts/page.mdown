@@ -41,7 +41,7 @@ layout: default
 	{{ content }}
 </div>
 
-    <script>
+<script>
     $(window).bind('scroll',function(e){
         parallaxScroll();
     });
@@ -50,4 +50,4 @@ layout: default
         $(".header-page").css('backgroundPositionY',(0+(scrolled*.1))+'%');
       }
   
-    </script>
+</script>
